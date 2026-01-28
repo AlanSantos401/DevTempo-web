@@ -40,7 +40,7 @@ export const CardDaily = styled.div`
     } 
   }
 
-  &:nth-child(1) {
+  &:nth-child(5) {
     @media (max-width: 550px) {
       display: none;
     }
