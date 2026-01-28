@@ -12,7 +12,8 @@ import {
   Error,
   HourlyDate,
   DateView,
-  Loading
+  Loading,
+  ButtonVoltar
 } from "../styles/homeStyles";
 import type { WeatherData } from "../types/weather";
 import type {
@@ -151,7 +152,7 @@ export default function Home() {
         </Buscar>
 
         {isSearchingCity || error ? (
-          <Button onClick={handleBackToLocation} title="Voltar para Minha localização">📍</Button>
+          <ButtonVoltar onClick={handleBackToLocation} title="Voltar para Minha localização">📍</ButtonVoltar>
         ) : (
           <HourlyDate>
             <DateView >

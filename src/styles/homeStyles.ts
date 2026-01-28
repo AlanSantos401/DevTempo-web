@@ -109,6 +109,25 @@ export const Button = styled.button`
   }
 `;
 
+export const ButtonVoltar = styled.button`
+  height: 42px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background-color: ${colors.vidro};
+  font-size: 18px;
+  cursor: pointer;
+
+  @media (max-width: 550px) {
+    display: none;
+  }
+`;
+
+
 
 export const Error = styled.div`
   margin-top: 60px;
