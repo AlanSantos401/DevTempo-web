@@ -7,7 +7,7 @@ interface TemperatureProps {
 }
 
 export const Container = styled.div`
-  margin-top: 30px;
+  margin-top: 20px;
   width: 100%;
   max-width: 900px;
   height: auto;
@@ -16,8 +16,8 @@ export const Container = styled.div`
   align-items: center;
 
   img {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
 
   @media (max-width: 900px) {
@@ -52,7 +52,7 @@ export const City = styled.div`
 
 
 export const Temperature = styled.span<TemperatureProps>`
-  font-size: 54px;
+  font-size: 40px;
   font-weight: 600;
   color: ${({ $temp }) => getTemperatureColor($temp)};
 

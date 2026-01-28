@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { colors } from "./theme";
 
 export const Container = styled.div`
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   gap: 20px;
 
@@ -19,7 +19,7 @@ export const Container = styled.div`
 
 export const CardDaily = styled.div`
   width: 160px;
-  height: 150px;
+  height: 140px;
   border-radius: 20px;
   padding: 15px;
   display: flex;
@@ -29,8 +29,8 @@ export const CardDaily = styled.div`
   cursor: pointer;
 
   img {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
   }
 
   @media (max-width: 900px) {

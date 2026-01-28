@@ -31,7 +31,7 @@ export const CardHourly = styled.div`
 
   img {
     width: 70px;
-    height: 70px;
+    height: 65px;
   }
 
   @media (max-width: 900px) {
